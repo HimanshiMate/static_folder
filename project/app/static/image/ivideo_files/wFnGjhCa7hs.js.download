@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("MediaPlaybackCompoundEventUtils",["CometProductAttribution"],(function(a,b,c,d,e,f,g){"use strict";function a(a){if((a==null?void 0:a.v2)&&(a==null?void 0:a.v2.length)>0){a=a==null?void 0:a.v2;a=a[a.length-1];return[a["class"],a.module].map(d("CometProductAttribution").filterEntryValue).join(":")}return""}function b(a){var b=0;switch(a){case"autoplay_initiated":b=1;break;case"loop_initiated":b=7;break;case"product_initiated":b=8;break;case"user_initiated":b=2;break;default:break}return b}g.minifyProductAttributionV2Root=a;g.getMediaPlaybackPlayReason=b}),98);
